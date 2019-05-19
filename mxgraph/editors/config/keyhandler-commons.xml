@@ -1,0 +1,17 @@
+<mxEditor>
+  <ui>
+    <stylesheet name="css/process.css"/>
+  </ui>
+
+  <add as="symbol">
+    <Symbol label="Symbol" customAttribute="whatever">
+      <mxCell vertex="1" connectable="1" style="symbol;image=images/event.png">    
+        <mxGeometry as="geometry" width="32" height="32"/>
+      </mxCell>
+      <CustomChild customAttribute="whatever"/>
+    </Symbol>
+  </add>
+
+  <add as="SymbolTool" template="symbol" style="symbol;image=wf/images/bpmn/special_event.png" icon="wf/images/bpmn/small_event.gif"/>
+
+</mxEditor>
