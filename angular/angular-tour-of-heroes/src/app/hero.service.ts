@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 
-import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
-import { Observable, of } from "rxjs";
-import { catchError, map, tap } from "rxjs/operators";
+import { Observable, of } from 'rxjs';
+import { catchError, map, tap } from 'rxjs/operators';
 
-import { Hero } from "./hero";
+import { Hero } from './hero';
 
-import { MessageService } from "./message.service";
+import { MessageService } from './message.service';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -104,7 +104,7 @@ export class HeroService {
   }
 
   private log(message: string): void {
-    this.messageService.add(`HeroService: ${message}`)
+    this.messageService.add(`HeroService: ${message}`);
   }
 
 
