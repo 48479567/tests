@@ -5,7 +5,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 
-import { MatCheckboxModule, MatCardModule, MatIconModule, MatGridListModule, MatRadioModule } from '@angular/material';
+import {
+  MatCheckboxModule,
+  MatCardModule,
+  MatIconModule,
+  MatGridListModule,
+  MatRadioModule,
+  MatButtonModule
+} from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -38,6 +45,7 @@ import { HeroCheckComponent } from './hero-check/hero-check.component';
     MatCardModule,
     MatIconModule,
     MatGridListModule,
+    MatButtonModule,
     MatRadioModule,
     FormsModule,
     ReactiveFormsModule,
